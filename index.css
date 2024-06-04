@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+p {
+    margin: 0;
+}
+
+.LoginForm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main {
+    width: 640px;
+    margin: 0 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-base {
+    width: 458.4px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.4px 0.4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.block-base-inner {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    label {
+        font-size: 14px;
+        border-left: 4.8px black solid;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.input-item {
+    height: 24.8px;
+    padding: 6px 14px;
+    border: 1.6px rgba(169, 169, 169, 0.5) solid;
+    border-radius: 4px;
+}
+
+.submit-button {
+    width: 150px;
+    font-size: 16px;
+    padding: 9px 20px;
+    background-color: #e40012;
+    color: white;
+    border: 0.8px #e40012 solid;
+    border-radius: 50px;
+}
+
+.submit-button:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.login-box input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.block-text {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block-key {
+    width: 458.4px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0.4px 0.4px 2px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
